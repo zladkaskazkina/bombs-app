@@ -1,7 +1,7 @@
 <template>
   <div class="container" v-if="!exploded" >
     <Bomb></Bomb>
-    <button v-if="!isActive" @click="activateBomb">Activate</button>
+    <button v-if="!isActive" @click="activateBomb">Aktivovat</button>
     <h3 v-if="isActive"> {{ countdown }} </h3>
   </div>
 </template>
